@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => {
 			'import.meta.env.STORYBLOK_API_BASE_URL': JSON.stringify(
 				env.STORYBLOK_API_BASE_URL,
 			),
-			'import.meta.env.STORYBLOK_ENV_MODE': JSON.stringify(
+			'import.meta.env.ENV_MODE': JSON.stringify(
 				env.ENV_MODE,
 			),
 		},
